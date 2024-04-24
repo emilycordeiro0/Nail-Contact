@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    height: auto;
+}
+
+body {
+    background: url(./assets/pngegg.png), linear-gradient(to right, rgb(224, 85, 85) 20%, pink 80%);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 100px 0 100px 0;
+    text-align: center;
+    z-index: 0;
+    /* height: 100vh; */
+}
+
+img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 10px 230px;
+    border-radius: 50%;
+}
+
+#title-n1 {
+    padding: 50px 0 10px 0;
+}
+
+h1 {
+    display: flex;
+    margin: 0 0 40px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+
+footer {
+    padding: 100px;
+    margin: 50px 0 0 0;
+    bottom: 150px;
+    right: 0;
+}
