@@ -4,13 +4,14 @@
 }
 
 body {
-    background: url(./assets/pngegg.png), linear-gradient(to right, rgb(224, 85, 85) 20%, pink 80%);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 100px 0 100px 0;
-    text-align: center;
+    background: url(./assets/pngegg.png) no-repeat center, linear-gradient(to right, rgb(224, 85, 85) 20%, pink 80%);
     z-index: 0;
     /* height: 100vh; */
+}
+
+body *{
+    margin: 100px 0 100px 0;
+    text-align: center;
 }
 
 img {
@@ -38,6 +39,5 @@ h1 {
 footer {
     padding: 100px;
     margin: 50px 0 0 0;
-    bottom: 150px;
-    right: 0;
+   background-position: bottom;
 }
