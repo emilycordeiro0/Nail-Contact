@@ -8,6 +8,7 @@ body {
     background-image: url(./assets/Imagens/background-image\ 1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 400px;
     height: 100vh;
 }
 
