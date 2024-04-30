@@ -28,8 +28,7 @@ main {
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    margin: 100px auto 20px;
-    width: 550px;
+    margin: 100px;
     gap: 20px;
 }
 
@@ -41,7 +40,7 @@ main {
 
 img {
     width: 250px;
-    height: 250px;
+    padding: 20px;
 }
 
 h1 {
@@ -81,4 +80,10 @@ footer {
     color: white;
     padding: 100px;
     margin: 50px 0 0 0;
+}
+
+footer ion-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
