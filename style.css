@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./assets/Imagens/background-image\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 400px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 100px;
+    gap: 20px;
+}
+
+.d-block {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+img {
+    width: 250px;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    margin: 0 0 40px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(181, 179, 179, 0.426);
+    color: aliceblue;
+    width: 150px;
+    padding: 5px;
+    height: 40px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgb(64, 59, 59);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 100px;
+    margin: 50px 0 0 0;
+}
+
+footer ion-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
