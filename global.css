@@ -29,15 +29,14 @@ main {
 
 .title {
     font-size: 150px; 
-    text-shadow: 1px 1px 0 #e81717;
+    text-shadow: 1px 1px 0 #ae616161;
 }
 
 .subtitle {
     text-align: right;
     direction: rtl;
     font-size: 25px;
-    text-shadow: 1px 1px 0 #e81717;
-    
+    text-shadow: 1px 1px 0 #ae616161;
 }
 
 section {
