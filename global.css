@@ -17,7 +17,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin: 50px auto;
 }
 
 .titleBox {
@@ -82,7 +82,8 @@ a:hover {
 }
 
 hr {
-    border-color:rgba(245, 145, 145, 0.231);
+    border-color:rgba(240, 159, 159, 0.426);
+    width: 100%;
 }
 
 footer {
